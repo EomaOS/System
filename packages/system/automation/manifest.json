@@ -1,0 +1,8 @@
+{
+  "id": "automation",
+  "name": "Automation",
+  "version": "2.0",
+  "entry": "automation.jar",
+  "main_class": "eoma.system.automation.Automation",
+  "permissions": ["SYSTEM", "EOMA_API"]
+}
