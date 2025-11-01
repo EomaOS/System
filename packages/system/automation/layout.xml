@@ -1,0 +1,9 @@
+<layout>
+    <window title="Automation" width="500" height="400">
+        <button id="btnTerminal" text="Abrir Terminal" command="x-terminal-emulator &" x="30" y="30" width="180" height="40"/>
+        <button id="btnTime" text="Mostrar Hora" command="echo hora" x="30" y="80" width="180" height="40"/>
+        <button id="btnShutdown" text="Desligar EomaOS" command="shutdown now &" x="30" y="130" width="180" height="40"/>
+        <button id="btnOpenApp" text="Abrir Calculator" command="java -jar ./apps/calculator/app.jar &" x="30" y="180" width="180" height="40"/>
+        <label id="lblOutput" text="" x="30" y="240" width="440" height="120"/>
+    </window>
+</layout>
